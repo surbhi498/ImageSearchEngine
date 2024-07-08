@@ -2,51 +2,64 @@
 
 ![Streamlit App](./assets/app_screenshot.png)
 
-This project is a Streamlit-based application for performing image similarity search using embeddings stored in Qdrant.
+## About the Project
 
-## Features
+### Inspiration
 
-- Fetches initial records from a Qdrant collection and displays images.
-- Allows users to select a record and find similar images based on embeddings.
-- Supports caching of QdrantClient instance for efficiency.
-- Converts base64-encoded image strings to bytes for rendering images in Streamlit.
-- Dynamically resizes and preprocesses images using PIL and converts them to base64 format.
-- Utilizes Transformers and PyTorch for image embedding generation.
-- I used "microsoft/resnet-50" for the image embedding.
-- Integrates dotenv for managing environment variables securely.
+The inspiration for this project came from the need to efficiently manage and search through large collections of images. With the growing volume of digital content, finding similar images manually becomes increasingly challenging. Leveraging AI to automate this process can save time and enhance productivity for various applications, such as digital asset management, content creation, and research.
 
-## Setup
+### What We Learned
 
-To run this project locally, follow these steps:
+Building this project provided valuable insights into several key areas:
+- **AI and Machine Learning:** Gained deeper understanding of how image embeddings work and how to utilize pre-trained models like "microsoft/resnet-50" for generating these embeddings.
+- **Streamlit for Web Applications:** Learned to create interactive and user-friendly web applications using Streamlit.
+- **Qdrant Vector Database:** Acquired knowledge about storing and querying high-dimensional vectors efficiently.
+- **Data Processing:** Developed skills in handling and processing image data, including resizing, encoding, and decoding.
 
-### Prerequisites
+### How We Built the Project
 
-- Python 3.9 or higher
-- Pip package manager
-- Qdrant setup with collection created
+1. **Setting Up the Environment:**
+   - Cloned the repository and installed the required packages.
+   - Set up Qdrant for storing image embeddings.
 
-### Installation
+    ```bash
+    git clone https://github.com/surbhi498/ImageSearchEngine.git
+    cd streamlit
+    pip install -r requirements.txt
+    ```
 
-1. **Clone the repository:**
+2. **Generating Image Embeddings:**
+   - Utilized "microsoft/resnet-50" model from Transformers and PyTorch to generate embeddings for images.
 
-   ```bash
-   git clone https://github.com/surbhi498/ImageSearchEngine.git
-   cd streamlit
-   pip install -r requirements.txt
-   
-## Run the command
-### Running the Streamlit Application
+3. **Building the Streamlit Application:**
+   - Created a Streamlit app to fetch initial records from a Qdrant collection and display images.
+   - Added functionality for users to select a record and find similar images based on embeddings.
+   - Implemented caching of the QdrantClient instance for efficiency.
 
-To run the Streamlit application, execute the following command in your terminal:
+4. **Image Processing:**
+   - Used PIL to dynamically resize and preprocess images.
+   - Converted images to base64 format for rendering in Streamlit.
 
-```bash
-streamlit run app.py
+### Challenges Faced
 
-## Visit Our Deplyed Application
+- **Embedding Generation:** Understanding and implementing image embeddings using a pre-trained model required significant research and experimentation.
+- **Efficiency:** Ensuring that the application performs efficiently with large datasets was a major challenge, particularly in terms of querying and displaying images.
+- **Data Handling:** Handling and processing images, including encoding and decoding base64 strings, presented various technical challenges.
 
-You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/)
+### Future Enhancements
+
+- **Scalability:** Improve the scalability of the application to handle larger datasets more efficiently.
+- **Additional Features:** Add more functionalities such as filtering results based on different criteria and integrating more advanced image processing techniques.
+- **User Interface:** Enhance the user interface to provide a more seamless and intuitive experience.
+
+### Visit Our Deployed Application
+
+You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/).
 
 ### Tutorial Video
+
 Watch the tutorial video for a demonstration of this project on [YouTube](https://youtu.be/BPx_9ChUHL8).
 
+---
 
+Feel free to explore and provide feedback!
