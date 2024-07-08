@@ -47,5 +47,6 @@ streamlit run app.py
 You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/)
 
 ### Tutorial Video
+Watch the tutorial video for a demonstration of this project on [YouTube](https://youtu.be/BPx_9ChUHL8).
 
-Watch the tutorial video for a demonstration of this project on [YouTube](https://youtu.be/BPx_9ChUHL8)
+
