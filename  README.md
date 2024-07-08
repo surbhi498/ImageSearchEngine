@@ -32,12 +32,13 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/surbhi498/ImageSearchEngine.git
    cd streamlit
+   pip install -r requirements.txt
    
-### Run the command**   
+## Run the command
 ```bash
 streamlit run app.py
 
 
-### Visit Our Deplyed Application
+## Visit Our Deplyed Application
 
 You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/).
