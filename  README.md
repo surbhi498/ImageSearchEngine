@@ -16,7 +16,7 @@ Building this project provided valuable insights into several key areas:
 - **Qdrant Vector Database:** Acquired knowledge about storing and querying high-dimensional vectors efficiently.
 - **Data Processing:** Developed skills in handling and processing image data, including resizing, encoding, and decoding.
 
-### How We Built the Project
+### How I Built the Project
 
 1. **Setting Up the Environment:**
    - Cloned the repository and installed the required packages.
