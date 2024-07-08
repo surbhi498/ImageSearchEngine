@@ -52,6 +52,24 @@ Building this project provided valuable insights into several key areas:
 - **Additional Features:** Add more functionalities such as filtering results based on different criteria and integrating more advanced image processing techniques.
 - **User Interface:** Enhance the user interface to provide a more seamless and intuitive experience.
 
+### Enhanced Search Capabilities
+
+#### Text-to-Image Search
+
+- **Description:** Enable users to input text descriptions and generate matching images using advanced text-to-image generation models.
+
+- **Example Use Case:** Users can type "sunset over the mountains" and the application generates images that match this description.
+
+#### Multimodal Search
+
+- **Description:** Combine text, image, and voice inputs to provide more comprehensive and accurate search results.
+- **Example Use Case:** Users can provide a photo and a text description like "beach with palm trees," and the system finds images that match both criteria.
+
+---
+
+These enhanced search capabilities leverage advanced Generative AI technologies to expand the functionality of the application, enabling users to search for and generate content based on various input modalities.
+
+
 ### Visit Our Deployed Application
 
 You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/).
