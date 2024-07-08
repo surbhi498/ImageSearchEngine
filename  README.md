@@ -35,10 +35,17 @@ To run this project locally, follow these steps:
    pip install -r requirements.txt
    
 ## Run the command
+### Running the Streamlit Application
+
+To run the Streamlit application, execute the following command in your terminal:
+
 ```bash
 streamlit run app.py
 
-
 ## Visit Our Deplyed Application
 
-You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/).
+You can visit our website [here](https://bby4nz8tfecnwbffyy7wnn.streamlit.app/)
+
+### Tutorial Video
+
+Watch the tutorial video for a demonstration of this project on [YouTube](https://youtu.be/BPx_9ChUHL8)
